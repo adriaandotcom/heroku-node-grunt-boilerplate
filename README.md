@@ -34,6 +34,15 @@ What does it use?
 * [Grunt](http://gruntjs.com/)
 
 
+Bugs
+----
+
+Heroku sometimes doesn't set its NODE_ENV. This app relies on that variable
+for compiling the assets. We do this diffent for development and production.
+So don't forget to check the NODE_ENV with `heroku config:get NODE_ENV`,
+is it empty? Update it with `heroku config:set NODE_ENV=production`
+
+
 UNLICENSE
 ---------
 
