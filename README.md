@@ -1,9 +1,17 @@
 Heroku Node Grunt boilerplate
 =============================
 
-1. Clone this repo
-2. Run `npm install` in its root directory
-3. Go play!
+Here is a live [Demo](http://heroku-node-grunt-boilerplate.herokuapp.com/), via Heroku free dyno so it sleeps. Be patient.
+
+
+Install
+-------
+
+1. Clone this repo and navigate to its root directory
+2. Run `npm install`
+3. Run `grunt watch`
+4. Run `node app.js`
+5. Go play!
 
 
 What does it do?
