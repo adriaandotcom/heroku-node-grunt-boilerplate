@@ -1,4 +1,4 @@
-exports.contact = function(req, res) {
+exports.page = function(req, res) {
 
   // add some variable to the layout
   res.render('contact.ejs', {
@@ -8,4 +8,4 @@ exports.contact = function(req, res) {
 
   console.log('This message will be send to the console');
 
-});
+}

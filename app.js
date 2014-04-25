@@ -35,6 +35,7 @@ app.configure('production', function() {
 });
 
 // start listening
+var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
   console.log('Listening on ' + port);
 });
@@ -45,4 +46,4 @@ app.get('/', function(req, res) {
 });
 
 // render contact
-app.get('/contact', song.addSong);
+app.get('/contact', contact.page);
