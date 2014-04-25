@@ -1,0 +1,42 @@
+{
+  "name": "heroku-node-grunt-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for developing an website in node with grunt command on Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/grunt heroku"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harianus/heroku-node-grunt-boilerplate.git"
+  },
+  "keywords": [
+    "heroku",
+    "boilerplate",
+    "express",
+    "ejs",
+    "dokku",
+    "dokker"
+  ],
+  "author": "Adriaan van Rossum",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/harianus/heroku-node-grunt-boilerplate/issues"
+  },
+  "homepage": "https://github.com/harianus/heroku-node-grunt-boilerplate",
+  "dependencies": {
+    "express": "~3.5.1",
+    "ejs": "~1.0.0",
+    "grunt": "~0.4.4",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-digest": "~0.1.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-sass": "~0.12.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
