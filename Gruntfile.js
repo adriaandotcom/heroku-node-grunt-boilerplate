@@ -14,11 +14,10 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['assets/**/*.js'],
-        tasks: ['concat'],
-        options: {
-          spawn: false,
-        },
+        files: [
+          'assets/**/*'
+        ],
+        tasks: ['default']
       },
     },
     concat: {
@@ -57,14 +56,6 @@ module.exports = function(grunt) {
       build: {
         src: ['public/assets/app.js', 'public/assets/app.css']
       }
-    },
-    watch: {
-      scripts: {
-        files: [
-          'assets/**/*'
-        ],
-        tasks: ['default']
-      },
     },
   });
 
